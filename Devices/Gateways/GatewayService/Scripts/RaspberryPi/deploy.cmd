@@ -23,12 +23,12 @@ REM //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS I
 REM //  THE SOFTWARE.
 REM //  ---------------------------------------------------------------------------------
 
-set puttydir="C:\Program Files (x86)\PuTTY\"
+set puttydir="C:\Program Files\PuTTY"
 set prjdir=..\..\
-set rpi_ip=xxx.xxx.xxx.xxx
+set rpi_ip=169.254.4.97
 set rpi_usr=pi
 set rpi_pw=raspberry
-set Configuration=Release
+set Configuration=Debug
 set GW_Home=ctdgtwy
 set Staging=%GW_Home%/staging
 set PUTTY_CMD=%puttydir%putty %rpi_usr%@%rpi_ip% -pw %rpi_pw% 
